@@ -1,3 +1,8 @@
+"""
+逻辑回归优化方法
+1.选取 离簇最近的特征点 进行训练
+2.选取 离簇最近的 n 个特征点 进行训练
+"""
 #导包
 import numpy as np
 from sklearn.cluster import KMeans
