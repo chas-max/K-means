@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
-from main import Kmeans
+from KMeans_train import Kmeans
 
 #导入数据
 data = pd.read_csv('iris.csv')
